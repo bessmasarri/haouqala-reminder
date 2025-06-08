@@ -1,0 +1,16 @@
+{
+    "name": "تذكير الحوقلة",
+    "short_name": "الحوقلة",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#DFF5FF",
+    "theme_color": "#378CE7",
+    "icons": [
+      {
+        "src": "icon128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }
+    ]
+  }
+  

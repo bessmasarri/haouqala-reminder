@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>تذكير الحوقلة</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="manifest.json" />
+  <style>
+    body {
+      font-family: "Amiri", serif;
+      background-color: #DFF5FF;
+      padding: 1rem;
+      text-align: right;
+    }
+    h1 {
+      color: #378CE7;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      color: #444;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    select, button {
+      font-size: 1rem;
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    button {
+      background-color: #378CE7;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #67C6E3;
+    }
+  </style>
+</head>
+<body>
+  <h1>فضل الحوقلة</h1>
+  <p>
+    الإكثار من قول <span style="font-weight: 700; color: #5356FF;">لا حول ولا قوة إلا بالله</span> عبادة عظيمة،  
+    فإذا لزِمتَها أنارَ الله بصيرتك، وألهمَك رُشدك، وثبَّت قلبك، وسدَّد رأيك، وقوّى عزيمتك، وأعزَّ نفسك، وجمع أمرك، وفرّج همّك، وسدَّ فاقتك، وشرَح صدرك، وفتَحَ لك وأعانَك.
+  </p>
+
+  <label for="interval">اختار مدة التذكير:</label>
+  <select id="interval">
+    <option value="15">كل 15 دقيقة</option>
+    <option value="30" selected>كل 30 دقيقة</option>
+    <option value="60">كل ساعة</option>
+  </select>
+
+  <button id="startReminder">تفعيل التذكير</button>
+  <button id="stopReminder" disabled>إيقاف التذكير</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
