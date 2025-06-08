@@ -5,47 +5,89 @@
   <title>تذكير الحوقلة</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="manifest" href="manifest.json" />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: "Amiri", serif;
-      background-color: #DFF5FF;
-      padding: 1rem;
+      background-color: #F5F0E3; /* beige sable */
+      padding: 2rem;
+      margin: 0;
       text-align: right;
+      color: #4B3F3F; /* marron mosaïque */
     }
+
     h1 {
-      color: #378CE7;
+      color: #B77B57; /* caramel */
       font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      color: #444;
-      font-size: 1rem;
-      line-height: 1.5;
       margin-bottom: 1rem;
+      font-size: 1.8rem;
+      text-align: center;
+      border-bottom: 2px solid #D4AF37;
+      padding-bottom: 0.5rem;
     }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      background-color: #FAF8F1; /* ivoire */
+      border-right: 4px solid #D4AF37;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+    p span {
+      font-weight: bold;
+      color: #D4AF37;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
     select, button {
       font-size: 1rem;
-      padding: 0.5rem;
-      border-radius: 5px;
+      padding: 0.75rem;
+      border-radius: 8px;
       border: 1px solid #ccc;
       width: 100%;
       margin-bottom: 1rem;
+      box-sizing: border-box;
     }
+
     button {
-      background-color: #378CE7;
+      background-color: #B77B57;
       color: white;
       border: none;
       cursor: pointer;
+      transition: 0.3s;
     }
+
     button:hover {
-      background-color: #67C6E3;
+      background-color: #A36847;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
   <h1>فضل الحوقلة</h1>
   <p>
-    الإكثار من قول <span style="font-weight: 700; color: #5356FF;">لا حول ولا قوة إلا بالله</span> عبادة عظيمة،  
+    الإكثار من قول <span>لا حول ولا قوة إلا بالله</span> عبادة عظيمة،  
     فإذا لزِمتَها أنارَ الله بصيرتك، وألهمَك رُشدك، وثبَّت قلبك، وسدَّد رأيك، وقوّى عزيمتك، وأعزَّ نفسك، وجمع أمرك، وفرّج همّك، وسدَّ فاقتك، وشرَح صدرك، وفتَحَ لك وأعانَك.
   </p>
 
